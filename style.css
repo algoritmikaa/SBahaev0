@@ -1,0 +1,77 @@
+body {
+    font-family: sans-serif;
+}
+
+header {
+    background-image: linear-gradient(aqua,white);
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+header a {
+    text-decoration: none;
+   background-color: white;
+   padding: 9px;
+   border-radius: 10px;
+   color: rgb(65, 223, 255);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(24, 93, 127);
+    font-size: 50px;
+}
+
+.link-nav {
+    background-color: rgb(124, 236, 225);
+    padding: 10px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: rgb(8, 77, 155);
+    
+}
+
+.wer {
+    border: 5px solid rgb(5, 56, 90);
+    
+}
+
+footer {
+    margin: 30px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    font-size: 20px;
+}
+
+h1:hover {
+    text-shadow: 10px 10px 5px grey;
+}
+
+li:hover {
+    font-size: 30px;
+    color: rgb(8, 61, 121);
+    transition: all 1s ;
+}
+
+.link-nav:hover {
+    background-color: rgb(22, 129, 129);
+    color: white;
+    box-shadow: 10px 10px 5px grey;
+}
+
+header a:hover {
+    color: white;
+    background-color: aqua;
+    font-size: 35px;
+    transition: all 1s ;
+}
+    
